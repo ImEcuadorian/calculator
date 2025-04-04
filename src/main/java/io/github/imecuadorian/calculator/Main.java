@@ -76,7 +76,7 @@ public class Main {
                     System.out.println("Result: " + RESULT);
                     if (CALCULATOR.hasMemory()) {
                         System.out.println("Result in memory: " + CALCULATOR.getMemory());
-                        System.out.println("Result: " + (CALCULATOR.getMemory() - RESULT));
+                        System.out.println("Result: " + (RESULT - CALCULATOR.getMemory()));
                     }
                 }
                 case 3 -> {

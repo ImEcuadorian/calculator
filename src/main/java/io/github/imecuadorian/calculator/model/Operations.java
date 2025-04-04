@@ -8,7 +8,6 @@ public interface Operations {
     double divide() throws ArithmeticException;
     void memory(double value);
     boolean hasMemory();
-
     double getMemory();
 
 }
